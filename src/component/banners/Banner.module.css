@@ -1,0 +1,117 @@
+.container {
+    padding: 20px;
+    margin-left: 25px;
+  }
+  
+  .addButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius:4px ;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .image {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: cover;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+  }
+  
+  .imageInputContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .imageInputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .previewImageHorizontal {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: cover;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  
+  .activeButton {
+    background-color: blue;  /* Blue for active */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .inactiveButton {
+    background-color: yellow;  /* Yellow for inactive */
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .deleteButton {
+    background-color: red;  /* Red for delete */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .deleteButton:hover,
+  .activeButton:hover,
+  .inactiveButton:hover {
+    opacity: 0.8;
+  }
+
+  .isActiveText {
+    color: #4CAF50; /* Green */
+    font-weight: bold;
+  }
+  

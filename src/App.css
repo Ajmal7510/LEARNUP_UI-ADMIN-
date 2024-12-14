@@ -1,0 +1,19 @@
+:root {
+  --font-family: 'Arial', sans-serif; /* Set a default font family */
+  --letter-spacing: 0.5px;            /* Slightly better letter spacing */
+  --line-height: 1.6;                /* Improve readability */
+  --primary-color: #333;             /* Default text color */
+  --background-color: #f9f9f9;       /* Light background color */
+}
+
+/* Reset common margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure consistent box model */
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+}

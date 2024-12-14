@@ -1,0 +1,30 @@
+/* .adminPageContainer{
+    width: 100%;
+
+}
+.mainContainer{
+   margin-left: 220px;
+   
+} */
+
+
+.adminPageContainer{
+    width: 100%;
+    display:flex;
+}
+.mainContainer{
+   margin-left: 260px;
+   width: 100%;
+   
+}
+
+
+@media (max-width: 768px) {
+
+    .mainContainer{
+        margin-left: 80px;
+      
+        
+     }
+
+}
